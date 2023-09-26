@@ -1,0 +1,501 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+a {
+  background-color: transparent
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button,
+input {
+  overflow: visible
+}
+
+button {
+  text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+  -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+details {
+  display: block
+}
+
+[hidden] {
+  display: none
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem
+}
+
+body {
+  color: #404040;
+  background: #fff;
+  font-size: 1rem
+}
+
+p,
+table {
+  margin: 0 0 1.5rem 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.5rem 0;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  color: #404040
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child),
+h4:not(:first-child),
+h5:not(:first-child) {
+  margin: 1.5rem 0
+}
+
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child) {
+  margin-top: 2rem
+}
+
+h1 {
+  font-size: 1.75rem
+}
+
+h2 {
+  font-size: 1.5rem
+}
+
+h3 {
+  font-size: 1.25rem
+}
+
+h4 {
+  font-size: 1.1rem
+}
+
+h5 {
+  font-size: 1rem
+}
+
+@media (min-width:600px) {
+
+  h1:not(:first-child),
+  h2:not(:first-child),
+  h3:not(:first-child) {
+    margin-top: 2.5rem
+  }
+
+  h1 {
+    font-size: 2.25rem
+  }
+
+  h2 {
+    font-size: 2rem
+  }
+
+  h3 {
+    font-size: 1.75rem
+  }
+
+  h4 {
+    font-size: 1.5rem
+  }
+
+  h5 {
+    font-size: 1.25rem
+  }
+}
+
+a {
+  color: #0366ee;
+  text-decoration: none
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #0246a2;
+  text-decoration: underline
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.text-left {
+  text-align: left
+}
+
+.text-right {
+  text-align: right
+}
+
+.text-center {
+  text-align: center
+}
+
+.button,
+[type=button],
+[type=reset],
+[type=submit],
+a.button,
+button {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: 1px solid #0366ee;
+  border-radius: 4px;
+  background: #0366ee;
+  color: #fff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-transform: none;
+  padding: .75rem 1.25rem;
+  margin: 0 0 .5rem 0;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1
+}
+
+.button:hover,
+[type=button]:hover,
+[type=reset]:hover,
+[type=submit]:hover,
+a.button:hover,
+button:hover {
+  border: 1px solid #0250bc;
+  background: #0250bc;
+  color: #fff;
+  text-decoration: none
+}
+
+.button:active,
+.button:focus,
+[type=button]:active,
+[type=button]:focus,
+[type=reset]:active,
+[type=reset]:focus,
+[type=submit]:active,
+[type=submit]:focus,
+a.button:active,
+a.button:focus,
+button:active,
+button:focus {
+  border: 1px solid #0250bc;
+  background: #0250bc;
+  color: #fff;
+  text-decoration: none
+}
+
+.button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+a.button::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0
+}
+
+.muted-button,
+a.muted-button {
+  background: 0 0;
+  border: 1px solid #cdcdcd;
+  color: #4e4e4e
+}
+
+.muted-button:active,
+.muted-button:focus,
+.muted-button:hover,
+a.muted-button:active,
+a.muted-button:focus,
+a.muted-button:hover {
+  color: #4e4e4e;
+  border: 1px solid #818181;
+  background: 0 0
+}
+
+[type=color],
+[type=date],
+[type=datetime-local],
+[type=datetime],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week] {
+  display: block;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  padding: .75rem;
+  outline: 0;
+  background: 0 0;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1
+}
+
+[type=color]:hover,
+[type=date]:hover,
+[type=datetime-local]:hover,
+[type=datetime]:hover,
+[type=email]:hover,
+[type=month]:hover,
+[type=number]:hover,
+[type=password]:hover,
+[type=search]:hover,
+[type=tel]:hover,
+[type=text]:hover,
+[type=time]:hover,
+[type=url]:hover,
+[type=week]:hover {
+  border: 1px solid #c5c5c5
+}
+
+[type=color]:active,
+[type=color]:focus,
+[type=date]:active,
+[type=date]:focus,
+[type=datetime-local]:active,
+[type=datetime-local]:focus,
+[type=datetime]:active,
+[type=datetime]:focus,
+[type=email]:active,
+[type=email]:focus,
+[type=month]:active,
+[type=month]:focus,
+[type=number]:active,
+[type=number]:focus,
+[type=password]:active,
+[type=password]:focus,
+[type=search]:active,
+[type=search]:focus,
+[type=tel]:active,
+[type=tel]:focus,
+[type=text]:active,
+[type=text]:focus,
+[type=time]:active,
+[type=time]:focus,
+[type=url]:active,
+[type=url]:focus,
+[type=week]:active,
+[type=week]:focus {
+  border: 1px solid #0366ee;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), 0 0 6px #8cbcfe
+}
+
+[type=range] {
+  width: 100%
+}
+
+:-moz-placeholder,
+:-ms-input-placeholder,
+::-moz-placeholder,
+::-webkit-input-placeholder {
+  color: #9a9a9a
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%
+}
+
+thead th {
+  border-bottom: 2px solid #dedede
+}
+
+td {
+  border-bottom: 1px solid #dedede
+}
+
+td,
+th {
+  text-align: left;
+  padding: .5rem
+}
+
+.striped-table tbody tr:nth-child(odd) {
+  background-color: #f8f8f8
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #fff
+}
+
+.title {
+  flex: 1
+}
+
+.actions {
+  display: flex;
+  gap: 10px
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.pagination button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed
+}
+
+.pagination span {
+  flex: 1;
+  text-align: center
+}
+
+.left-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.right-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center
+}
+
+/* Add this CSS to your stylesheet */
+.footer {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 80px;
+  text-align: center;
+}
+
+/* Style the link within the footer if needed */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Additional styling as per your design requirements */
